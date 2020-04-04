@@ -11,6 +11,7 @@ public class AdjList {
 	{
 		for(int i=0;i<arl.size();i++)
 		{
+                     System.out.print(i+" -> ");
 			for(int j=0;j<arl.get(i).size();j++)
 			{
 				System.out.print(arl.get(i).get(j)+" ");
