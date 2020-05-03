@@ -1,5 +1,5 @@
 public static Node insert(Node root,int data) {
-           if(root==null)
+           if(root==null)  
           root=new Node(data);
           else
           {
